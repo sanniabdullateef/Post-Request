@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+<title>Sending Post Request</title>
+</head>
+<body>
+
+    <div class="container">
+        <header id="page-header" class="bg-dark text-white col-sm-12">
+          <h1 id="main-heading" class="text-center">Sending a POST request</h1>
+        </header>
+        <div class="row">
+          <main class="col-sm-10 offset-sm-1">
+            <form>
+              <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="title" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="content">Content</label>
+                <textarea id="content" class="form-control" rows="4" required></textarea>
+              </div>
+              <button id="submit-button" type="submit" class="btn btn-primary">
+                Submit
+              </button>
+            </form>
+          </main>
+        </div>
+        <div class="row">
+          <section class="col-sm-10 offset-sm-1">
+            <p id="response-message"></p>
+            <h2 id="response-title"></h2>
+            <small id="response-id"></small>
+            <p id="response-content"></p>
+          </section>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
